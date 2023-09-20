@@ -30,8 +30,8 @@ jobs:
         id: publish_app
         uses: ServiceNow/sncicd-publish-app@2.0.1
         with:
-          versionTemplate: 2.1
-          versionFormat: template
+          versionTemplate: 2
+         # versionFormat: template
           # Optional, add +X to version number. Default: 1 
           # incrementBy: X
         env:
