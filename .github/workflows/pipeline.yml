@@ -28,7 +28,7 @@ jobs:
 
       - name: ServiceNow CI/CD Publish App
         id: publish_app
-        uses: ServiceNow/sncicd-publish-app@1.0.1
+        uses: ServiceNow/sncicd-publish-app@2.0.1
         with:
           versionTemplate: 1.1
           versionFormat: template
