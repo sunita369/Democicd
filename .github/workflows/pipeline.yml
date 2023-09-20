@@ -19,7 +19,7 @@ jobs:
     steps:
 
       - name: ServiceNow CI/CD Apply Changes
-        uses: ServiceNow/sncicd-apply-changes@1.0.0
+        uses: ServiceNow/sncicd-apply-changes@2.0.0
         env:
           nowUsername: ${{ secrets.NOW_USERNAME }}
           nowPassword: ${{ secrets.NOW_PASSWORD }}
@@ -28,9 +28,9 @@ jobs:
 
       - name: ServiceNow CI/CD Publish App
         id: publish_app
-        uses: ServiceNow/sncicd-publish-app@1.0.0
+        uses: ServiceNow/sncicd-publish-app@2.0.1
         with:
-          versionTemplate: 2.4
+          versionTemplate: 1.1
           versionFormat: template
           # Optional, add +X to version number. Default: 1 
           # incrementBy: X
@@ -45,4 +45,4 @@ jobs:
     # run on different Linux instances, so without this Install App won't know
     # what to install.
     outputs:
-      publishversion: ${{ steps.versions.outputs.publishversion }}
+      publishversion: ${{ steps.publish_app.outputs.newVersion }}
