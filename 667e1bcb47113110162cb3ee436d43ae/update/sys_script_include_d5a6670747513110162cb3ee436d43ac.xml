@@ -14,6 +14,7 @@ check_demo.prototype = {
 //add
 	//xyz
 	//fddytfkyugkug
+	//check
 	//abcd
     type: 'check_demo'
 };]]></script>
@@ -21,13 +22,13 @@ check_demo.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-20 12:04:52</sys_created_on>
         <sys_id>d5a6670747513110162cb3ee436d43ac</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>check_demo</sys_name>
         <sys_package display_value="Democicd" source="667e1bcb47113110162cb3ee436d43ae">667e1bcb47113110162cb3ee436d43ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Democicd">667e1bcb47113110162cb3ee436d43ae</sys_scope>
         <sys_update_name>sys_script_include_d5a6670747513110162cb3ee436d43ac</sys_update_name>
-        <sys_updated_by>github admin</sys_updated_by>
-        <sys_updated_on>2023-09-20 12:36:00</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 14:14:42</sys_updated_on>
     </sys_script_include>
 </record_update>
